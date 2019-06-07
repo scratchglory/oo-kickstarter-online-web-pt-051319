@@ -3,6 +3,7 @@
   takes a name on initialization, accessible through an attribute reader (FAILED - 1)
   initializes with a @backed_projects attribute, an empty array (FAILED - 2)
 =end
+require 'pry'
 
 class Backer
   attr_accessor :backed_projects
@@ -14,6 +15,7 @@ class Backer
   end
 
   def back_project(project)
+    binding.pry
     @backed_projects << 
   end
   
