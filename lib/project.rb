@@ -6,5 +6,8 @@ class Project
     @backers = []
   end
   
+  def add_backer(person)
+    
+  end
 
 end
