@@ -5,7 +5,9 @@
 =end
 
 class Backer
+  attr_writer :backed_projects
   attr_reader :name
+  
   def initialize(name)
     @name = name
     @backed_projects = []
