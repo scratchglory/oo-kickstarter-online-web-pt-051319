@@ -10,5 +10,5 @@ class Project
     @backers << person
   end
 
-  def add_backer 
+  
 end
