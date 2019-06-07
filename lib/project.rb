@@ -11,5 +11,8 @@ class Project
   end
 
   def advance_add_backer(person)
+    if !person.backers.include?(self)
+      person.add_backer(self)
+    end
   end
 end
