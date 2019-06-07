@@ -5,7 +5,8 @@
 =end
 
 class Backer
-  attr_writer :backed_projects
+  attr_accessor :backed_projects
+  attr_writer :back_projects
   attr_reader :name
   
   def initialize(name)
