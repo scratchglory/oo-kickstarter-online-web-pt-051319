@@ -10,5 +10,6 @@ class Project
     @backers << person
   end
 
-  
+  def advance_add_backer(person)
+  end
 end
